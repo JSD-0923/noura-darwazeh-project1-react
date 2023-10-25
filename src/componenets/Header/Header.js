@@ -2,7 +2,6 @@ import Triangles from "../Triangles/Triangles.js";
 import WelcomeHeader from "../WelcomeHeader/WelcomeHeader.js";
 import Nav from './Partils/Nav.js';
 import styles from './Header.module.css'
-
 function Header() {
   return (
     <div className="header">
