@@ -1,0 +1,12 @@
+main{
+    background-color: var(--bg_body);
+}
+.middleSection {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: #333333;
+    padding: 30px;
+    padding-left: 15vw;
+}

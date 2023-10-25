@@ -1,0 +1,27 @@
+.subTopics {
+    color: var(--body-text);
+    background-color: var(--bg_default);
+    border: 1px solid var(--lines-color);
+    width: 40%;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-left: 17vw;
+
+}
+
+.headerSubTopic {
+    padding: 15px;
+}
+.subTopic {
+    border-top: 1px solid var(--lines-color);
+    padding: 15px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.checkIcons {
+    color: var(--brand-secondary);
+    font-size: 18px;
+}

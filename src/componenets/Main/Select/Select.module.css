@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --brand-primary: #0768ac;
+    --brand-secondary: #03c180;
+    --bg_default: #ffffff;
+    --bg_body: #f0f9ff;
+    --lines-color: #dddddd;
+    --body-text: #333333;
+    --heart-color: #dc143c;
+    --details-text: black;
+    --white-color: white;
+    --rating-icon: goldenrod;
+    --gray-color: gray;
+}
+.filterlabelSelect {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg_default);
+    border-left: 1px solid var(--lines-color);
+    padding-left: 5px;
+    width: 50%;
+}
+
+.selectLabel {
+    font-size: 11px;
+    font-weight: bold;
+    text-align: left;
+    
+}
+.selectOp {
+    border: none;
+    padding-right: 70px;
+    background-color: var(--bg_default);
+    color: var(--body-text);
+}

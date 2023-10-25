@@ -1,0 +1,10 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+nav p {
+    color: var(--brand-primary);
+    font-weight: bold;
+}

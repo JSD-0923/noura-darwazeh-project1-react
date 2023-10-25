@@ -1,0 +1,19 @@
+.details {
+    color: var(--white-color);
+    padding-left: 30px;
+    width: 50%;
+
+}
+
+.detailsHeader {
+    color: var(--brand-secondary);
+    font-weight: bold;
+}
+
+/* .details ion-icon {
+    color: var(--rating-icon);
+} */
+
+.descriptionParagraph {
+    padding-top: 15px;
+}
