@@ -1,6 +1,7 @@
 import Buttons from "../../Buttons/Buttons";
+import { useState } from "react";
 function Nav(props) {
-    const { toggleDarkMode } = props
+    
     return (
         <nav>
             <p>Wep Topics</p>
