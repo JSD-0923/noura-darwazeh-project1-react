@@ -10,6 +10,10 @@ nav p {
     color: var(--brand-primary);
     font-weight: bold;
 }
+.icon{
+    
+    padding-right:2px;
+}
 
 /* Triangles */
 .triangleContainer {

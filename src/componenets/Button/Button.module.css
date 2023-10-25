@@ -1,4 +1,4 @@
-.button {
+button {
     border: 1px solid var(--lines-color);
     border-radius: 5px;
     background-color: var(--bg_default);
@@ -6,4 +6,7 @@
     height: 30px;
     border-radius: 5px;
     padding: 5px;
+    
+    
+    
 }
