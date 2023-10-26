@@ -1,7 +1,3 @@
-// import styles from './Search.module.css'
-// import Select from '../Select/Select';
-// import Select from '../../Select/Select';
-// import Select from '../../../componenets/Select/Select';
 import React from 'react';
 import Select from '../../../componenets/Select/Select';
 import styles from '../index.module.css'
@@ -10,7 +6,6 @@ function SearchBar (){
     return(
         <div className={styles.search}>
                     <div className={styles.iconInput}>
-                        {/* <ion-icon name="search-outline"></ion-icon> */}
                         <FaSearch className={styles.icon} />
                         <input type="text" placeholder="   Search the website..." />
                     </div>
