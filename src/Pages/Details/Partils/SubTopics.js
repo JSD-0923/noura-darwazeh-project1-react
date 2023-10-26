@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './SubTopics.module.css'
+import styles from '../Details.module.css'
 import { FaRegCheckCircle } from 'react-icons/fa'
 
 const SubTopic = (props) => {
@@ -16,8 +16,8 @@ const SubTopic = (props) => {
  * @returns 
  */
 const SubTopics = ({ topic, subtopics }) => {
-    const items = subtopics.map((subTopicName) =>
-        <SubTopic subTopicName={subTopicName} />
+    const items = subtopics.map((subTopicName, index) =>
+        <SubTopic key={index} subTopicName={subTopicName} />
     )
     return (
         <div className={styles.subTopics}>

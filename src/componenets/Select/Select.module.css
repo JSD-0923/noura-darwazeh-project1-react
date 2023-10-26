@@ -3,19 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-:root {
-    --brand-primary: #0768ac;
-    --brand-secondary: #03c180;
-    --bg_default: #ffffff;
-    --bg_body: #f0f9ff;
-    --lines-color: #dddddd;
-    --body-text: #333333;
-    --heart-color: #dc143c;
-    --details-text: black;
-    --white-color: white;
-    --rating-icon: goldenrod;
-    --gray-color: gray;
-}
+
 .filterlabelSelect {
     display: flex;
     flex-direction: column;
@@ -29,6 +17,7 @@
     font-size: 11px;
     font-weight: bold;
     text-align: left;
+    color: var(--body-text);
     
 }
 .selectOp {

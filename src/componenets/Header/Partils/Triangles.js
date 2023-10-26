@@ -1,4 +1,5 @@
-import styles from './Triangles.module.css';
+import styles from '../Header.module.css'
+
 function Triangles(props) {
     return (
         <div className={styles.triangleContainer}>

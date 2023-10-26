@@ -1,7 +1,12 @@
-import styles from './Search.module.css'
-import Select from '../Select/Select';
+// import styles from './Search.module.css'
+// import Select from '../Select/Select';
+// import Select from '../../Select/Select';
+// import Select from '../../../componenets/Select/Select';
+import React from 'react';
+import Select from '../../../componenets/Select/Select';
+import styles from '../index.module.css'
 import { FaSearch } from 'react-icons/fa'
-function Search (){
+function SearchBar (){
     return(
         <div className={styles.search}>
                     <div className={styles.iconInput}>
@@ -19,4 +24,4 @@ function Search (){
             
     )
 }
-export default Search;
+export default SearchBar;

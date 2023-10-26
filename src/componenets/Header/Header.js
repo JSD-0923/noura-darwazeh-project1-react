@@ -1,8 +1,8 @@
-import Triangles from "../Triangles/Triangles.js";
-import WelcomeHeader from "../WelcomeHeader/WelcomeHeader.js";
+import Triangles from './Partils/Triangles';
+import WelcomeBar from './Partils/WelcomeBar';
 import Nav from './Partils/Nav.js';
-import styles from './Header.module.css'
-import { useState } from "react";
+import styles from './Header.module.css';
+
 function Header() {
   return (
     <div className="header">
@@ -13,7 +13,7 @@ function Header() {
         <Triangles />
       </section>
       <section>
-        <WelcomeHeader />
+        <WelcomeBar />
       </section>
     </div>
   );

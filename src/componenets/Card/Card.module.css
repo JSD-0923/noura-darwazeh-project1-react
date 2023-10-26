@@ -6,10 +6,12 @@
     background-color: var(--bg_default);
 
 }
-.topic{
+
+.topic {
     font-size: 14px;
-     font-weight: 1000;
+    font-weight: 1000;
 }
+
 .firstTopicImg {
     height: 140px;
 }
@@ -29,11 +31,13 @@
 .firstTopicDescreption p {
     font-size: 10px;
     font-weight: bold;
-    
+
 }
-.detailsParagraph{
+
+.detailsParagraph {
     color: var(--body-text);
 }
+
 /* .icon ion-icon {
     color: goldenrod;
     padding-top: 15px;
@@ -44,4 +48,3 @@
     color: gray;
     font-weight: bold;
 }
-

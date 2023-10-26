@@ -1,6 +1,7 @@
 import React from 'react';
-import styles from './WelcomeHeader.module.css';
-function WelcomeHeader(props) {
+import styles from '../Header.module.css';
+
+function WelcomeBar(props) {
     return (
         <>
             <div className={styles.welcomeSection}>
@@ -11,4 +12,4 @@ function WelcomeHeader(props) {
         </>
     )
 }
-export default WelcomeHeader;
+export default WelcomeBar;

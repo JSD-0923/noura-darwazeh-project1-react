@@ -1,6 +1,6 @@
 import React from "react";
-import styles from './DetalisInfo.module.css'
-const DetailsInfo = ({ topic , category ,description }) => {
+import styles from '../Details.module.css'
+const DetailsInfo = ({ topic, category, description }) => {
     return (
         <div className={styles.details}>
             <p className={styles.detailsHeader}>{category}</p>

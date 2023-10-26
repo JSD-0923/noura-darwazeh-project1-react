@@ -1,6 +1,7 @@
 import React from 'react';
-import styles from './Buttons.module.css'
-function Buttons(props) {
+import styles from './Button.module.css'
+function Button(props) {
+
     return (
         <button className={styles.button}>
             <span>{props.icon}</span>
@@ -8,4 +9,4 @@ function Buttons(props) {
         </button>
     )
 }
-export default Buttons;
+export default Button;

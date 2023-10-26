@@ -1,11 +1,8 @@
-// import React from 'react'
-// import MainDetails from '../../componenets/MainDetails/MainDetails'
 import React from 'react'
-// import styles from './MainDetails.module.css'
 import styles from './Details.module.css'
-import DetailsCard from '../../componenets/DetailsCard/DetailsCard'
-import DetailsInfo from '../../componenets/DetailsInfo/DetailsInfo'
-import SubTopics from '../../componenets/SubTopics/SubTopics'
+import DetailsInfo from './Partils/DetailsInfo'
+import DetailsCard from './Partils/DetailsCard'
+import SubTopics from './Partils/SubTopics'
 import { useParams } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 const Details = () => {
@@ -31,9 +28,6 @@ const Details = () => {
              <p>Loading...</p>
         )}
         </main>
-   
-
-  )
+   )
 }
-
 export default Details
