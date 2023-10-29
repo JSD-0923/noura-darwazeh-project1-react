@@ -1,6 +1,5 @@
 import React from 'react'
 import Card from '../../../componenets/Card/Card';
-// import styles from './Cards.module.css';
 import styles from '../index.module.css'
 import { useEffect, useState } from 'react'
 const Cards = () => {

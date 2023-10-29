@@ -1,7 +1,29 @@
-import React from 'react'
+import React, { useState , useEffect } from 'react'
 import styles from '../Details.module.css'
-const DetailsCard = ({ topic, name, image }) => {
-    // console.log(cardDetails);
+const DetailsCard = ({ topic, name, image,id } ) => {
+    const [isFav , setIsFav] = useState(false);
+    const [favourites , setFavourites ] = useState([]);
+    useEffect(() => {
+        const storedFavorites = JSON.parse(localStorage.getItem('favourites')) || [];
+        setFavourites(storedFavorites);
+        const isTopicFavorite = storedFavorites.some((favorite) => favorite.id === id);
+        setIsFav(isTopicFavorite);
+      }, [isFav, id]);
+    const addToFavorites = () => {
+        const newFavorite = {
+          id: id,
+          image: image,
+          topic: topic,
+          
+        };
+        const updateFav = [...favourites, newFavorite];
+        setFavourites(updateFav);
+        updateLocalStorage(updateFav);
+        setIsFav(true);
+      };
+      const updateLocalStorage = (updateFav) => {
+        localStorage.setItem('favourites', JSON.stringify(updateFav));
+      };
 
     return (
         <div className={styles.detailsCard}>
@@ -12,7 +34,8 @@ const DetailsCard = ({ topic, name, image }) => {
             </p>
             <div className={styles.interestedTheTopic}>
                 <p className={styles.interestedParagraph}>Interested about this topic?</p>
-                <button>Add to Favourites <ion-icon name="heart-outline"></ion-icon>
+
+                <button onClick= {addToFavorites}>Add to Favourites <ion-icon name="heart-outline"></ion-icon>
                 </button>
                 <p className={styles.UnlimitedCreditsParagraph}>Unlimited Credits</p>
             </div>

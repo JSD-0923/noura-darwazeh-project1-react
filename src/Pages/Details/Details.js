@@ -13,7 +13,7 @@ const Details = () => {
           .then((response) => response.json())
           .then((data) => setCardDetails(data));
       }, [id])
-    console.log(cardDetails);
+    // console.log(cardDetails);
   return (
     <main>
             {cardDetails !== null ? (
